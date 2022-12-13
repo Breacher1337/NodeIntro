@@ -1,0 +1,27 @@
+{
+  "name": "introtonode",
+  "version": "1.0.0",
+  "description": "This is an intro to node project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Breacher1337/NodeIntro.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Elaijah Sapla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Breacher1337/NodeIntro/issues"
+  },
+  "homepage": "https://github.com/Breacher1337/NodeIntro#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "superheroes": "^3.0.0",
+    "supervillains": "^3.1.0"
+  }
+}
