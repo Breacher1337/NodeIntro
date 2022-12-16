@@ -9,7 +9,7 @@ app.get("/" , function(req, res) {
 })
 
 app.post("/", function(req, res){
-    res.send("Tq")
+    res.send("Thank you for posting!")
 })
 
 app.listen(PORT, function(){
