@@ -3,11 +3,14 @@ const express = require("express")
 const app = express()
 const PORT = 3000
 
-app.get("/" , function(request, response) {
+app.get("/" , function(req, res) {
     console.log(__dirname)
-    response.sendFile(__dirname + "/index.html")
+    res.sendFile(__dirname + "/index.html")
 })
 
+app.post("/", function(req, res){
+    res.send("Thank you for posting!")
+})
 
 app.listen(PORT, function(){
     console.log("Started listening to port " + PORT)
